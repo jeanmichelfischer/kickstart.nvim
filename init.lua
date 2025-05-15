@@ -985,6 +985,7 @@ require('lazy').setup({
   require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
   require 'kickstart.plugins.nvim-colorizer',
   require 'kickstart.plugins.ccc',
+  require 'kickstart.plugins.nvim-jqx',
 
   vim.keymap.set('n', '<leader>k', '<Cmd>Neotree toggle<CR>', { desc = 'Neotree toggle' }),
 
